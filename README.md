@@ -16,6 +16,8 @@ Preprocessing datasets in preparation for modeling.
 - [References](#references)
 
 ### **Project Overview** 
+<img width="812" height="367" alt="hr-image-small" src="https://github.com/user-attachments/assets/bf3eaea2-0a67-4335-99ff-bad98259ef5e" />
+
 A common problem when creating models to generate business value from data is that the datasets can be so large that it can take days for the model to generate predictions. Ensuring that your dataset is stored as efficiently as possible is crucial for allowing these models to run on a more reasonable timescale without needing to reduce the dataset's size.
 
 You've been hired by a major online data science training provider called *Training Data Ltd.* to clean up one of their largest customer datasets. This dataset will eventually be used to predict whether their students are looking for a new job or not, information that they will then use to direct them to prospective recruiters.
@@ -45,7 +47,7 @@ The customer data is stored in a CSV file named `customer_train.csv`, which is a
 
 
 ### **Tools Used**
-The Python programming language and its data analysis libraries, including Pandas and NumPy, are utilized for data manipulation and analysis in this project. Jupyter Notebook was employed as the development environment for coding and documentation.
+The Python programming language, along with its data analysis libraries such as Pandas and NumPy, is utilized for data manipulation and analysis in this project. Jupyter Notebook was employed as the development environment for coding and documentation.
 
 #### _Import Necessary Libraries_
 ```py
@@ -66,6 +68,7 @@ The dataset didn't require cleaning because it's known to be clean; therefore, i
   # View the dataset
   ds_jobs.head()
 ```
+<img width="1003" height="283" alt="head1" src="https://github.com/user-attachments/assets/cc573d41-2aeb-4436-9b98-4cbec720c3a3" />
 
 
 
@@ -100,6 +103,7 @@ The dataset didn't require cleaning because it's known to be clean; therefore, i
         print(f"\nColumn: {col}")
         print(counts)    
 ```
+<img width="705" height="874" alt="ordering_applied" src="https://github.com/user-attachments/assets/67ea19b2-d25f-494c-a958-6436d7ccd9d4" />
 
 
 
@@ -245,6 +249,7 @@ The dataset didn't require cleaning because it's known to be clean; therefore, i
     ]
     ds_jobs_transformed.head()    
 ```
+<img width="1006" height="206" alt="head2" src="https://github.com/user-attachments/assets/ecf08f78-78c0-4b89-a3de-1e8b35613201" />
 
 
 
@@ -279,12 +284,14 @@ The dataset didn't require cleaning because it's known to be clean; therefore, i
     ds_jobs_transformed.dtypes    
 ```
 
+<img width="280" height="248" alt="model-prepped_dataset" src="https://github.com/user-attachments/assets/e55c699c-82f0-465c-b9df-720df8fcd12e" />
 
 
-```
+
+
 ### **Results and Findings**
 #### Result Interpretation
-The dataset looks well-suited for modeling now.
+The dataset has now been transformed to be well-suited for modeling.
 
 
 ### **Contributors & License**
